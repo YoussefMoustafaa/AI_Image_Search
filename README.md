@@ -27,9 +27,9 @@ pip install pinecone torch transformers pillow streamlit
 
 2. Setting Up Pinecone
 
-    Sign up for a Pinecone account and get your API key.
-    Create a Pinecone index in the website.
-    Initialize the index:
+    * Sign up for a Pinecone account and get your API key.
+    * Create a Pinecone index in the website.
+    * Initialize the index:
 
 ```python
     pc = Pinecone(api_key="YOUR_API_KEY")
