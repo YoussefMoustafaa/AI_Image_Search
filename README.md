@@ -47,10 +47,10 @@ python embeddings.py
 Run the Streamlit app:
 
 ```
-    streamlit run app.py
+streamlit run app.py
 ```
 
-    Access the app in your browser at http://localhost:8501.
+Access the app in your browser at http://localhost:8501.
 
 ## How It Works
 
