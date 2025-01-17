@@ -4,11 +4,9 @@ from PIL import Image
 import torch
 from transformers import CLIPModel, CLIPTokenizer, CLIPImageProcessor
 from io import BytesIO
+from keys import API_KEY, CSE_ID, URL
 
 
-API_KEY = "AIzaSyDigNnqdP4zV6zxpruj0EOprQ_AJSIWCeE"
-CSE_ID = "160a87104f18749c2"
-URL = "https://www.googleapis.com/customsearch/v1"
 
 model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-base-patch32")

@@ -1,0 +1,1 @@
+Streamlit takes too long to load the app and has a long response time, needs optimization
