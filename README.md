@@ -31,8 +31,10 @@ pip install pinecone torch transformers pillow streamlit
     Create a Pinecone index in the website.
     Initialize the index:
 
+```python
     pc = Pinecone(api_key="YOUR_API_KEY")
     index = pc.Index(index_name)
+```
 
 3. Running the App
 
